@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(cat /Users/ihormetko/Documents/Projects/me/home/notes.md 2>/dev/null || echo \"FILE_NOT_FOUND\")",
+      "Read(//Users/ihormetko/Documents/Projects/me/home/**)",
+      "Read(//Users/ihormetko/Documents/Projects/me/home/discussions/**)",
+      "Bash(find /Users/ihormetko/Documents/Projects/me/home -maxdepth 2 -type f -o -type d)"
     ]
   }
 }
